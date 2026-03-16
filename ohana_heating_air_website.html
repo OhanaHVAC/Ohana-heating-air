@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Ohana Heating & Air | Orange County HVAC</title>
+<style>
+body{margin:0;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;background:#f6fbfa;color:#1f2937;line-height:1.6}
+header{background:linear-gradient(120deg,#67e8f9,#a7f3d0,#bfdbfe);backdrop-filter:blur(6px);border-bottom:1px solid rgba(0,0,0,0.05)}
+nav{display:flex;justify-content:space-between;align-items:center;max-width:1100px;margin:auto;padding:10px 20px}
+nav h1{margin:0;font-size:24px;letter-spacing:.5px}
+nav a{margin-left:20px;text-decoration:none;color:#0f172a;font-weight:600;position:relative}
+nav a:after{content:"";position:absolute;left:0;bottom:-4px;width:0;height:2px;background:#0ea5e9;transition:.3s}
+nav a:hover:after{width:100%}
+.hero{padding:110px 20px;text-align:center;background:linear-gradient(rgba(0,0,0,.35),rgba(0,0,0,.35)),url('https://images.unsplash.com/photo-1505691723518-36a5ac3b2d1a') center/cover no-repeat;color:white}
+.hero h2{font-size:48px;margin-bottom:10px;letter-spacing:.5px}
+.hero p{font-size:19px;margin-bottom:28px;opacity:.95}
+.btn{background:linear-gradient(90deg,#0ea5e9,#22c55e);color:white;padding:14px 28px;border-radius:10px;text-decoration:none;font-weight:700;display:inline-block;box-shadow:0 10px 25px rgba(0,0,0,.15);transition:.25s}
+.btn:hover{transform:translateY(-2px);box-shadow:0 14px 30px rgba(0,0,0,.18)}
+.section{padding:70px 20px;max-width:1100px;margin:auto}
+.section h2{text-align:center;margin-bottom:40px;font-size:32px}
+.services{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:25px}
+.card{background:white;border-radius:14px;padding:28px;box-shadow:0 15px 35px rgba(0,0,0,0.06);transition:.25s;border:1px solid rgba(0,0,0,0.04)}
+.card:hover{transform:translateY(-6px);box-shadow:0 18px 40px rgba(0,0,0,0.1)}
+.card h3{margin-top:0}
+.reviews{background:linear-gradient(180deg,#ecfeff,#f0fdf4)}
+.review{margin:auto;max-width:700px;background:white;padding:20px 25px;border-radius:10px;box-shadow:0 10px 25px rgba(0,0,0,0.05);margin-bottom:20px}
+.review strong{color:#f59e0b;font-size:18px}
+form{margin-top:20px;text-align:center}
+input,textarea{border:1px solid #e5e7eb;border-radius:8px;padding:12px;font-size:15px}
+input:focus,textarea:focus{outline:none;border-color:#0ea5e9;box-shadow:0 0 0 2px rgba(14,165,233,.15)}
+footer{background:#0f172a;color:white;text-align:center;padding:35px 20px;margin-top:40px}
+@media (max-width:768px){
+.hero h2{font-size:34px}
+.hero{padding:80px 20px}
+nav{flex-direction:column;gap:10px}
+}
+</style>
+</head>
+<body>
+
+<header>
+<nav>
+<h1>Ohana Heating & Air</h1>
+<div>
+<a href="#services">Services</a>
+<a href="#about">About</a>
+<a href="#reviews">Reviews</a>
+<a href="#contact">Contact</a>
+</div>
+</nav>
+</header>
+
+<section class="hero">
+<h2>Trusted HVAC Service in Orange County</h2>
+<p>Family-owned heating and air conditioning experts keeping your home comfortable year‑round.</p>
+<a class="btn" href="#contact">Get a Free Estimate</a>
+</section>
+
+<section id="services" class="section">
+<h2>Our Services</h2>
+<div class="services">
+<div class="card">
+<h3>AC Repair</h3>
+<p>Fast and reliable air conditioning repair to keep your home cool during the hot Southern California summers.</p>
+</div>
+<div class="card">
+<h3>New System Installation</h3>
+<p>Energy‑efficient HVAC systems installed by certified professionals with free estimates.</p>
+</div>
+<div class="card">
+<h3>Maintenance</h3>
+<p>Seasonal tune‑ups and preventative maintenance to extend the life of your heating and cooling system.</p>
+</div>
+</div>
+</section>
+
+<section id="about" class="section">
+<h2>Family-Owned. Customer Focused.</h2>
+<p>At Ohana Heating & Air, we believe every customer should be treated like family. Serving Orange County homeowners, our mission is simple: provide honest HVAC service, transparent pricing, and dependable comfort solutions. With years of experience in the industry, our technicians take pride in delivering high‑quality workmanship and top‑rated service you can trust.</p>
+</section>
+
+<section id="reviews" class="section reviews">
+<h2>What Our Customers Say</h2>
+<div class="review">
+<strong>★★★★★</strong>
+<p>"Amazing service! Our AC went out during a heat wave and Ohana came the same day. Honest and professional."</p>
+</div>
+<div class="review">
+<strong>★★★★★</strong>
+<p>"Very knowledgeable and fair pricing. They installed our new system and the house has never been more comfortable."</p>
+</div>
+<div class="review">
+<strong>★★★★★</strong>
+<p>"Highly recommend this family‑owned company. You can tell they truly care about their customers."</p>
+</div>
+</section>
+
+<section id="contact" class="section">
+<h2>Schedule Your Free Estimate</h2>
+<p>Call today or fill out the form below to schedule your HVAC service.</p>
+<form>
+<input type="text" placeholder="Name" required style="padding:10px;margin:5px;width:250px">
+<input type="email" placeholder="Email" required style="padding:10px;margin:5px;width:250px"><br>
+<textarea placeholder="How can we help?" style="padding:10px;margin:5px;width:510px;height:120px"></textarea><br>
+<button class="btn" type="submit">Request Service</button>
+</form>
+</section>
+
+<footer>
+<p>© 2026 Ohana Heating & Air | Orange County, California</p>
+</footer>
+
+</body>
+</html>
